@@ -4,5 +4,7 @@
   "initialVersions": {
     "@frsty/wsrpc": "0.1.0"
   },
-  "changesets": []
+  "changesets": [
+    "initial-release"
+  ]
 }
