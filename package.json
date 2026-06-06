@@ -1,0 +1,55 @@
+{
+  "name": "@frsty/wsrpc",
+  "version": "0.1.0-beta.0",
+  "description": "Type-safe RPC and event streaming over WebSockets",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "./server": {
+      "import": "./dist/server.js",
+      "types": "./dist/server.d.ts"
+    },
+    "./client": {
+      "import": "./dist/client.js",
+      "types": "./dist/client.d.ts"
+    },
+    "./server/internal": {
+      "import": "./dist/server/internal.js",
+      "types": "./dist/server/internal.d.ts"
+    },
+    "./client/internal": {
+      "import": "./dist/client/internal.js",
+      "types": "./dist/client/internal.d.ts"
+    }
+  },
+  "keywords": [
+    "websocket",
+    "rpc",
+    "typescript",
+    "bun",
+    "realtime"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "check": "ultracite check",
+    "fix": "ultracite fix",
+    "release": "bun run build && changeset publish"
+  },
+  "dependencies": {
+    "@standard-schema/spec": "^1.1.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.15",
+    "@changesets/cli": "^2.31.0",
+    "@types/bun": "latest",
+    "tsup": "^8.5.1",
+    "ultracite": "7.8.1",
+    "zod": "^3.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
