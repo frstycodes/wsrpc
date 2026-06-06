@@ -1,0 +1,8 @@
+{
+  "mode": "pre",
+  "tag": "beta",
+  "initialVersions": {
+    "@frsty/wsrpc": "0.1.0"
+  },
+  "changesets": []
+}
