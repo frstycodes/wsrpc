@@ -1,9 +1,9 @@
 {
   "name": "@frsty/wsrpc",
-  "version": "0.1.0-beta.0",
+  "version": "0.0.1-beta.0",
   "description": "Type-safe RPC and event streaming over WebSockets",
   "repository": {
-    "url": "https://github.com/frstycodes/wsrpc"
+    "url": "git+https://github.com/frstycodes/wsrpc.git"
   },
   "license": "MIT",
   "type": "module",

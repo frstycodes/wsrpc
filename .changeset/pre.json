@@ -2,9 +2,7 @@
   "mode": "pre",
   "tag": "beta",
   "initialVersions": {
-    "@frsty/wsrpc": "0.1.0"
+    "@frsty/wsrpc": "0.0.1"
   },
-  "changesets": [
-    "initial-release"
-  ]
+  "changesets": []
 }
